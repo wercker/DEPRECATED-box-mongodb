@@ -12,9 +12,14 @@ The MIT License (MIT)
 
 # Changelog
 
+## 1.0.1
+
+- Add `WERCKER_MONGODB_URL` environment variable
+- Add `MONGODB_URL` environment variable
+
 ## 1.0.0
 
-- Add WERCKER_MONGODB_HOST environment variable
+- Add `WERCKER_MONGODB_HOST` environment variable
 
 ## 0.0.9
 
