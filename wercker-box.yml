@@ -12,3 +12,6 @@ script: sudo chef-solo -c $WERCKER_SOURCE_DIR/solo.rb -j $WERCKER_SOURCE_DIR/sol
 env:
   WERCKER_MONGODB_PORT: 27017
   WERCKER_MONGODB_HOST: $$HOST$$
+  WERCKER_MONGODB_URL: mongodb://$$HOST$$:27017
+  MONGODB_URL: mongodb://$$HOST$$:27017
+
